@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div>
+    <section id='projects'>
       <h2 className="text-center text-5xl font-bold leading-130 font-montserrat text-yellow-100 md:text-6xl ">our projects</h2>
       <p className="text-center  text-black-200 font-montserrat text-base leading-180 md:text-2xl">branding, websites and marketing</p>
       {/* first section */}
@@ -43,7 +43,7 @@ const Projects = () => {
             description="Youth-oriented eyewear brand, crafted with bold, innovative designs to reflect the vibrant lifestyles of its wearers." />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

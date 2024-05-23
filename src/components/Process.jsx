@@ -5,7 +5,7 @@ import Mobile from "../assets/infographic-mobile 1.svg"
 
 export default function Process() {
   return (
-    <section className="my-8">
+    <section id="process" className="my-8">
       <h2 className="text-center text-5xl font-bold leading-130 font-montserrat text-blue-200 ">our process</h2>
         {/* Mobile image */}
         <div className="my-4 items-center flex justify-center md:hidden">

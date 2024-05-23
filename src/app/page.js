@@ -6,6 +6,7 @@ import NavBar from "@/components/NavBar";
 import Process from "@/components/Process";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import * as React from "react";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Meeting/>
       <Feedback/>
       <Projects/>
+      <WhatsAppButton/>
     </main>
   )
 }

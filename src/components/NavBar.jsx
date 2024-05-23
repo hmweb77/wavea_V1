@@ -30,13 +30,13 @@ export default function NavBar() {
                         <div className="hidden md:flex items-center space-x-1">
                             <Link href="/" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Home</Link>
                             <Link href="#services" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Services</Link>
-                            <Link href="/projects" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Projects</Link>
-                            <Link href="/faq" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">FAQ</Link>
+                            <Link href="#projects" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Projects</Link>
+                            <Link href="#process" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">FAQ</Link>
                         </div>
                     </div>
                     {/* Contact Us Button */}
                     <div className=" md:block">
-                        <Link href="/contact" className="py-2 px-3 bg-yellow-400 text-yellow-900 rounded hover:bg-yellow-500 transition duration-300">Contact Us
+                        <Link href="" className="py-4 px-8 bg-yellow-400 text-yellow-900 rounded-3xl hover:bg-yellow-500 transition duration-300">Contact Us
                         </Link>
                     </div>
                 </div>
