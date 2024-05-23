@@ -13,14 +13,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P07WD7HTWK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P07WD7HTWK');
-</script>
+      <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.GOOGLE_ANALYTICS}');
+          `}
+        </Script>
       </head>
       <body className={inter.className}>{children}</body>
     </html>
