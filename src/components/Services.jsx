@@ -7,7 +7,7 @@ import marketing from "../assets/Guarantee.svg"
 export default function Services() {
     return (
 
-        <section className="container mx-auto text-center">
+        <section id="services" className="container mx-auto text-center">
             <div className='inline-flex flex-col items-center gap-4'>
           <h2 className="md:text-6xl text-5xl font-bold leading-130 font-montserrat text-yellow-100 ">
             our services

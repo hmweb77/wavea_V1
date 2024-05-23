@@ -29,7 +29,7 @@ export default function NavBar() {
                         {/* Primary Nav Items */}
                         <div className="hidden md:flex items-center space-x-1">
                             <Link href="/" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Home</Link>
-                            <Link href="/services" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Services</Link>
+                            <Link href="#services" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Services</Link>
                             <Link href="/projects" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Projects</Link>
                             <Link href="/faq" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">FAQ</Link>
                         </div>
