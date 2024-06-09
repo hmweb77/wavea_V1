@@ -36,7 +36,7 @@ export default function NavBar() {
                     </div>
                     {/* Contact Us Button */}
                     <div className=" md:block">
-                        <Link href="" className="py-4 px-8 bg-yellow-400 text-yellow-900 rounded-3xl hover:bg-yellow-500 transition duration-300">Contact Us
+                        <Link  href="https://wa.me/+351929345644" className="py-4 px-8 bg-yellow-400 text-yellow-900 rounded-3xl hover:bg-yellow-500 transition duration-300">Contact Us
                         </Link>
                     </div>
                 </div>

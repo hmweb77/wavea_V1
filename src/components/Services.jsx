@@ -18,21 +18,21 @@ export default function Services() {
             </div>
   
           <div className="flex flex-col md:flex-row justify-center items-center">
-            <div className="flex flex-col items-center  px-2">
+            <div className="flex flex-col items-center  px-8">
               <Image src={web} alt="logo" width={126} height={126} />
               <h3 className="font-montserrat text-2xl text-black-100 leading-130 font-semibold my-4">UI/UX DESIGN</h3>
               <p className="font-montserrat text-black-200 text-xl leading-170 ">
                 We will create a design for you that is consistent, functional, effective, meets current standards, and is aesthetically pleasing for the user.
               </p>
             </div>  
-            <div className="flex flex-col items-center mt-5  px-2">
+            <div className="flex flex-col items-center mt-5  px-8">
             <Image src={design} alt="logo" width={126} height={126} />
               <h3 className="font-montserrat text-2xl text-black-100 leading-130 font-semibold my-4">WEBSITES</h3>
               <p className=" font-montserrat text-black-200 text-xl leading-170 ">
                 Build your website and expand your online presence. We will ensure it looks great, operates quickly, and performs well with a seamless user experience.
               </p>
             </div>     
-            <div className="flex flex-col items-center mt-5 px-2">
+            <div className="flex flex-col items-center mt-5 px-8">
             <Image src={marketing} alt="logo" width={126} height={126} className='w-300 h-120' />
               <h3 className="font-montserrat text-2xl text-black-100 leading-130 font-semibold my-4">MARKETING</h3>
               <p className="font-montserrat text-black-200 text-xl leading-170 ">
