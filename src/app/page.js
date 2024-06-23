@@ -1,4 +1,6 @@
+import Faq from "@/components/FAQ";
 import Feedback from "@/components/Feedback";
+import Footer from "@/components/Footer";
 
 import HeroSection from "@/components/Hero";
 import Meeting from "@/components/Meeting";
@@ -19,6 +21,8 @@ export default function Home() {
       <Meeting/>
       <Feedback/>
       <Projects/>
+      <Faq/>
+      <Footer/>
       <WhatsAppButton/>
     </main>
   )

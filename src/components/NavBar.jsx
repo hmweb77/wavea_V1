@@ -8,7 +8,7 @@ export default function NavBar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <nav className="bg-white shadow-lg">
+        <nav>
             <div className="max-w-6xl mx-auto px-4">
                 <div className="flex justify-between items-center py-3">
                         {/* Mobile menu button */}
@@ -28,15 +28,15 @@ export default function NavBar() {
                     <div className="flex space-x-7">
                         {/* Primary Nav Items */}
                         <div className="hidden md:flex items-center space-x-1">
-                            <Link href="/" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Home</Link>
-                            <Link href="#services" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Services</Link>
-                            <Link href="#projects" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">Projects</Link>
-                            <Link href="#process" className="py-4 px-2 text-gray-500 font-semibold hover:text-blue-500 transition duration-300">FAQ</Link>
+                            <Link href="/" className="py-4 px-8 text-base leading-160 text-black-100 font-montserrat">Home</Link>
+                            <Link href="#services" className=" py-4 px-8 text-base leading-160 text-black-100 font-montserrat">Services</Link>
+                            <Link href="#projects" className="py-4 px-8 text-base leading-160 text-black-100 font-montserrat">Projects</Link>
+                            <Link href="#faq" className="py-4 px-8 text-base leading-160 text-black-100 font-montserrat">FAQ</Link>
                         </div>
                     </div>
                     {/* Contact Us Button */}
                     <div className=" md:block">
-                        <Link  href="https://wa.me/+351929345644" className="py-4 px-8 bg-yellow-400 text-yellow-900 rounded-3xl hover:bg-yellow-500 transition duration-300">Contact Us
+                        <Link  href="https://wa.me/+351929345644" className="py-4 px-8 bg-yellow-400 text-yellow-900 rounded-3xl hover:bg-yellow-500">Contact Us
                         </Link>
                     </div>
                 </div>
@@ -44,11 +44,10 @@ export default function NavBar() {
 
             {/* Mobile Menu */}
             <div className={`md:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
-                <Link href="/" className="block py-2 text-sm text-gray-700 hover:bg-gray-50">Home</Link>
-                <Link href="/services" className="block py-2 text-sm text-gray-700 hover:bg-gray-50">Services</Link>
-                <Link href="/projects" className="block py-2 text-sm text-gray-700 hover:bg-gray-50">Projects</Link>
-                <Link href="/faq" className="block py-2 text-sm text-gray-700 hover:bg-gray-50">FAQ</Link>
-
+                <Link href="/" className="block py-2 text-sm text-black-100">Home</Link>
+                <Link href="#services" className="block py-2 text-sm text-black-100">Services</Link>
+                <Link href="#projects" className="block py-2 text-sm text-black-100">Projects</Link>
+                <Link href="#faq" className="block py-2 text-sm text-black-100">FAQ</Link>
             </div>
         </nav>
     );

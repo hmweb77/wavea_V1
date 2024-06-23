@@ -3,7 +3,7 @@ import CreativeImage from "../assets/motivate-someone.svg"
 
 export default function HeroSection() {
     return (     
-            <div className="container text-center">
+            <div className="container mt-4 mx-auto text-center">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     {/* Text Section */}
                     <div className="md:w-1/2 px-2">
